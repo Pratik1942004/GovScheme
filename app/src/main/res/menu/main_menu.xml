@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:title="Home"
+        android:id="@+id/menu_home"/>
+    <item
+        android:title="Farmer"
+        android:id="@+id/menu_farmer"/>
+    <item
+        android:title="Women"
+        android:id="@+id/menu_women"/>
+    <item
+        android:title="Labour"
+        android:id="@+id/menu_labour"/>
+    <item
+        android:title="Startup"
+        android:id="@+id/menu_startup"/>
+    <item
+        android:title="Student"
+        android:id="@+id/menu_student"/>
+    <item
+        android:title="Get New Schemes"
+        android:id="@+id/menu_notification"/>
+    <item
+        android:title="share"
+        android:id="@+id/share"
+        app:showAsAction="always"
+
+        android:icon="@drawable/ic_share_white"/>
+
+</menu>
